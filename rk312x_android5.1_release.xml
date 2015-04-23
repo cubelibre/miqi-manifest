@@ -302,8 +302,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview" revision="be50d8e8d747a4bd4bb0961b76b6f337d2fba65b" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="0f6da1a299c8dd924d19714ee69d343915c32d2c" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/hardware/akm" path="hardware/akm" revision="068a97a299a8e0d837b8ac67635a96b59595c582" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="0507cf7a5e3c6ee4b21f9e40a070a
-f1f25f36a5f" upstream="rk32/mid/5.1/develop"/>
+  <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="0507cf7a5e3c6ee4b21f9e40a070af1f25f36a5f" upstream="rk32/mid/5.1/develop"/>
   <project groups="intel" name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" revision="dda0105984d0d83ffbdc3644d7d4735a86b88867" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="3cd25d2970ac205f7812c9cad505ba106deef38c" upstream="rk32/mid/5.1/develop"/>
