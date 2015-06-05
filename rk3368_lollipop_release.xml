@@ -28,11 +28,11 @@
   <project groups="device,shamu" name="device/moto/shamu-kernel" revision="dbc55200cab46833164bcaa5535ceb0d4909e6c9" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="device/sample" revision="6a9816fafdb2b78bbb8a1f9f9509ead0a8fcd12c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="cbf0a458b2e4ede6e30a02cdead226cb4870ba3c" upstream="sofia/phone/5.1/develop"/>
+  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="8443a2bdd17693ee6b05c80121069c039c1e91cc" upstream="sofia/phone/5.1/develop"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="cdf56a474b8abe4a9b8b1c25078d664df57116bd" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="ad2cfa7b94ff6ffa4aaf6c1e1c2032ceb797ef41" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="33c8d15e44f9d73b25c4b863d5e64c8b4a7f3318" upstream="rk32/mid/5.1/develop">
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="33f98afb758f6e1663d16ff64d31307bb4ada220" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="f31fdf1f9127bdd9d581d4414c6686c398a1e5b1" upstream="rk32/mid/5.1/develop">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts" revision="e734883838daaef1726a5dfff3388b77d333a1ac" upstream="refs/tags/android-5.1.0_r5"/>
@@ -105,7 +105,7 @@
   <project groups="pdk" name="platform/external/dnsmasq" path="external/dnsmasq" revision="e226badb960695447af4c480bb183ec35c411bbf" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs,tradefed" name="platform/external/doclava" path="external/doclava" revision="07f1dae3b9a9d8222ffa18e2d878c27c01c6268f" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/droiddriver" path="external/droiddriver" revision="d22fedf52b8cbf700142a4448b3f59254b37851e" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="rk" revision="6bb4e692dbb2fc9bb664826903f005b1fc17315d" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="rk" revision="e58368f26415c97dadecf1c33a741caa9965323c" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs,tradefed" name="platform/external/easymock" path="external/easymock" revision="c9a234086537e5fd820b110bbd99e3cdc695004c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" revision="6134da6347cc997e0cf2921aaadfb46f21c05d85" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" revision="a5f3ee137e94737538ec3bdf9b3716765d178c17" upstream="refs/tags/android-5.1.0_r5"/>
@@ -235,7 +235,7 @@
   <project groups="pdk-cw-fs" name="platform/external/robolectric" path="external/robolectric" revision="d9d53068f24c9af1a332986dd196c163b3ca897c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt" revision="dde037b82e5cd6215244e3240dbaad417928eafa" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="7dc1f6d355c49bb78fdd69d8ce37fb4cf66f866d" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="58cb9425cb903040081c051d4f70f8c9af6dbfb7" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" revision="6723e5241a45c6de224c96384a595a1bf5bc5449" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/skia" path="external/skia" remote="rk" revision="2f4021cd61e92f3c0562c59d499e9a6dfdd83d44" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/external/smack" path="external/smack" revision="d7955ce24d294fb2014c59d11fca184471056f44" upstream="refs/tags/android-5.1.0_r5"/>
@@ -268,8 +268,8 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="8d977782c1cfe9d75cc9a464439c2ff1e27e1665" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="42797e687b15f7630dfb980080b0f81d22370388" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="19b3bd1fa771ca8611f2f655a37f94f8d57904e3" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="d3bca73b83aef9e40d5af485df9da8ac2f58dc69" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="4a2253cc4aa59080b380e2a5bf2aec25d7ecb02f" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794" upstream="refs/tags/android-5.1.0_r5"/>
@@ -278,7 +278,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="253320d25fccbb49621926d49dcf5ef64cf529c6" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="c7a7e058e83dde47089502933de4e7b65aa47734" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="aa8394eaaa44582bbee403ce75746dc3ac643fb0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="0ded22af3080d3aa51d8b9a60a0129900ed92a93" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="1470c8234dc8e3fb8942432df020025e3d91b385" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="refs/tags/android-5.1.0_r5"/>
@@ -289,14 +289,14 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/mms" path="frameworks/opt/mms" revision="4a5bba9cfefb96706390307b7cf06271b7f9f5e2" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="73032c2b0319f98a38842243217fa252d85d9a75" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="a75f01b40fe52e6a9d9198ce9ee32e8783fe51f0" upstream="rk32/mid/5.1/develop"/>
   <project groups="frameworks_ims,pdk-cw-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="684de85a0e1313be480fdebb107a9adaaf432b36" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" remote="rk" revision="e9edea4481b6d3515ce202076f1760423382649f" upstream="rk32/mid/5.0/develop"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="cf38b8464007ebf626fc0d61a646491fc3d794cd" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="7317679910b3f0929936ebbbf77f19fea53edc30" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="447e336619b2806757698350ce0872fd9f2a6560" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="dde10165081ab6a08b339f88308132fd3221e470" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="c41e64ca8aecc294d911f9eca039f91157a3f70a" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="ac62e8e88a7ed7c6f04fc94db8b4218fe39e855c" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="ca8a3eb89d83a46d7a414b3323e9894cae9d3b23" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="127d2a7c9a253963772122958184d4d76160f4be" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="210ebaab315e389ffc66278e28ecd6230e412b5f" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/widget" path="frameworks/opt/widget" revision="466e0e0307b3f6aa4f4be3d9419b5996bd389da5" upstream="refs/tags/android-5.1.0_r5"/>
@@ -308,19 +308,19 @@
   <project name="platform/hardware/akm" path="hardware/akm" revision="068a97a299a8e0d837b8ac67635a96b59595c582" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="613d9bdccfaf68d28bdea07981d31b39a39278ec" upstream="rk32/mid/5.0/develop"/>
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" revision="dda0105984d0d83ffbdc3644d7d4735a86b88867" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="a5c82402795a558122cc1874931ea7196cb8a2c8" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="3cb443e9698708b5b54558d565fd904878753f12" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="4837d3167242003a0e0edc3f4c83be117b6d3426" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="09a518f7e95627a8378f8db714b1e329dda27005" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="rk" revision="485f2507d9e7fad8878a3b6c05e7645554439626" upstream="rk32/mid/5.1/develop"/>
-  <project name="platform/libcore" path="libcore" remote="rk" revision="1685149241fc5ead6fa1e7aaec4386a6ef470d1d" upstream="sofia/phone/5.1/develop"/>
+  <project name="platform/libcore" path="libcore" remote="rk" revision="c7f01c872ceefe85206a513dd95a6c653e75541c" upstream="sofia/phone/5.1/develop"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="a75fb2a636ceafac9ddfb580af614e5ef0edf977" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/ndk" path="ndk" revision="e4b362d6b023e419d595938154c6093d1c6f0d9b" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="53603f161a0332711ce8ae23bd237bc40880bfec" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="rk" revision="0a56c091a4d194869d27e7a51104a9debcf1fdee" upstream="rk32/mid/5.1/develop"/>
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="8fccc5c50c56f5b2cdda17bb35cebfb8beaa5b48" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/Browser" path="packages/apps/Browser" remote="rk" revision="dda4dd6fe926dd608fc1e0dcf8ead850f0a2f0bf" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" remote="rk" revision="cfcecd8da57dfe77e828f2f3abcd5b63db978a94" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="aecf6f5123faec6d9071a3e595ae12fb3dcefa4d" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="85f328a8676ce6f774746fb5311ca7374f010bf6" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="rk" revision="dcbc3c10ea884c767fa024886db1dfbb3323eac8" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="rk" revision="b835f59629a45c273cd3bce6693e78088ff27714" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="5c0425ddb3e6c08542c9e45f3764109bdfa83f78" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="33c0a544f35937a5175e45dea1c71d37595c4d3f" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="91dbd83e7587d09ed89dae8ccf7f36b8b756a68b" upstream="refs/tags/android-5.1.0_r5"/>
@@ -331,7 +331,7 @@
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="c687312a075dedd21c1637a102475d3271656eb3" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" revision="71393a01294596f353acd481424e3cfe1be674ac" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="def782b3ca9bf16b96a49cad2783438fb5ea5b45" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="rk" revision="7673c5f490b9b4afca8dea186b2fbcafa836d2dc" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="rk" revision="05d82c26c148cccd2f9d34d463efffbd3fcace42" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="8e9158af9f89e2a3ad4fe6d383d32cd80d9fe418" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" revision="d27ad14ef320762f4303b0794d2ae0f339f76d2d" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="273f0d54f58c5be9d9fc7d0e2612cb8d3c01b802" upstream="refs/tags/android-5.1.0_r5"/>
@@ -350,9 +350,9 @@
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="9b6836aabee945b6c7a54796a4e6a7ae735f423c" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="rk" revision="78ca0db658fe6253d506916e36319e620476f809" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="10f7fc3a1058d642f5a8855907e26785a113c0c0" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="334b30d4296ee7e2824237aedc57147eab1e7bbb" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="4a86e770e99a23626d03d30a8e4bf118e6663a5b" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="554215a931a25c0340d41710336ed469bf578c95" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="536aa74ff3a77186bef29dc9333a34688fa59d13" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="8f86843a3773a9eb03b4d4beabd2ce3c654f4113" upstream="refs/tags/android-5.1.0_r5"/>
@@ -378,7 +378,7 @@
   <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/services/Mms" path="packages/services/Mms" revision="1e146022ae0b2ba055685d517c216fd39fada7fb" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="f7a075b23be8889b5b0f4150b61ff98f885e5396" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="rk" revision="b6c6f86c541e78b53af5f497d91e6a94db35925d" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="rk" revision="117104217fcf26fa2f9ee8568e5150fa0ff41068" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="ffd7a6f18ee602c428e11c22e1c2f1c4565dc9a0" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="9f16f030f157e3987f63b16be2c26499b84eee22" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="7c5af822e2f2ac51c5eb2888b41e8c836423b0d5" upstream="refs/tags/android-5.1.0_r5"/>
@@ -415,7 +415,7 @@
   <project groups="pdk,darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="fee61fe3c501dbb509d9c8cb761e1505e0aead63" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" revision="98557ce83fc57736cc373c8065354b16db6a1c44" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" revision="c3c37a54f07d51a50e17d63dbf1d92da343f45ce" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="c6e7c808fa03e2b6f998607cf2cced23ac08f143" upstream="master"/>
+  <project groups="pdk,darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="c5d5557017a3c0a64cc73b37b04f8ce66d7d209a" upstream="master"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" revision="7334f0a7a872700d0aaf00bea75917c077c45530" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="d4d54ede13f6f76c77137c35a87fa5f0436eded2" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
@@ -440,58 +440,56 @@
   <project groups="pdk,tradefed" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="933020abbd02ddea9d701b6f79f392092b5ba3bf" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="5b2be74a88e09e758cb86d18deae9cd29006009a" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" revision="7859e2e738542baf96c15e6c8b50bbdb410131b0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="f03dbe9f987f06f2f9f0b8918bf11e1557a828c4" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="fb616d3947282ea52544b28c3f93698155716e75" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="8e9fa76016a34ec53b83157032e38fad06af1135" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="224da076426f2ab3124f1bd2f6171f43a09876bc" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="2d6976f08018613a6206ba74da3142ca4b85bd2d" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/system/netd" path="system/netd" remote="rk" revision="3e57ed8559c73bfe06244647a6d2641bd2f12a8b" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd" remote="rk" revision="a49fb60e6009ee650c51cf0724437fa5c81e6fb5" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/system/security" path="system/security" remote="rk" revision="58f205756efb691cbe159b0d7fe7270d45e184e4" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="6d30d17387c2741f4d0bc0a39a89c2c832a9607d" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="39134af5c0ddd3f999bb6d0d4b0440c90914f231" upstream="rk32/mid/5.1/develop"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="88d6fd22e0b2f4e20889d2b9d9e289c6a3f393a6" upstream="rk3368"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="2ec47f7c6bb5ddaa86b477b9f5d15fc3a312b2c2" upstream="rk3368"/>
-  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="053f182ec5b0e29865753b4ec85ed1c457624257" upstream="rk3368/mid/5.0/develop">
+  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="1ddba5606a5e1ed88f782dfef70a15c0f030ada8" upstream="rk3368/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3368-32.mk"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="5c2cad2636186a660c1611bd2d37048c5a433154" upstream="rk33/mid/5.0/develop">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="a46958533538a085e31aaeb37788b8058230a529" upstream="rk33/mid/5.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
-    <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="8918d6d5480c0b2f0f40d05b153a03498e76f972" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="eea0648d43004961583442ace8f6331dcfee94b0" upstream="rk33/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="3c73e81c31e7d850ab14f1b6689028db99a46c8e" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="bf97d9197f72e04c2add3490257ad2b747f93918" upstream="rk33/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/gps" path="hardware/rockchip/gps" remote="rk" revision="a2a4b19a1e2fd8a4735c6d7dd36dd30b1cc4e001" upstream="rk29/phone/4.0.1_r1/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="6f30fb5c1f141a539db37539ecb1ff01efea96f0" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="10fed81fb1026d6b8a2680497a1f2e4539de2855" upstream="rk29/mid/4.0.1_r1/develop"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="540a3df6018d9f86b395a00a8378f2e2610b39fb" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d629d9af331c3de1f829d2f08f7ac9cc9c6599ac" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="a7c35370dc2236d4ccc4d028b7fe0d15fd3f0bd7" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="714d7e233d816d40a794deea37853ec3d6666a4a" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/libkeymaster" path="hardware/rockchip/libkeymaster" remote="rk" revision="bd4d805b2428aa971c81a3b11429b183cc313b52" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="2ea6b6962abe5b037491a496fceb809caceb038b" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" remote="rk" revision="b73740e34bba0b5011cf29f6c4c5b0607b9b2bb1" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="1bc5462bbce8aa62da91df1afa3e98bb50f551d0" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="18ce0c3775514eb54631ceaa58a37c04d0b37a09" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
-  <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="2ffa99270270ea0fd7385ac675cc5212e7282f73" upstream="rk30/mid/4.1.1_r1/develop"/>
+  <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="ab27cd3ff4ca6973ab39aa749312935d83b74257" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="1c5c03879f2d6ea1feaf7469e1189935c2c99ce3" upstream="stable-3.10-rk3368"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="67062f95a7f02073ea4b6958620aa8a24c53ce6d" upstream="stable-3.10-rk3368"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
-  <project name="rk/platform/external/ffmpeg" path="external/ffmpeg" remote="rk" revision="a2dab3870ff773cd1615979baa6a98062694757e" upstream="rk30/mid/4.2_r1/develop"/>
   <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="master"/>
   <project name="rk/platform/external/mac" path="external/mac" remote="rk" revision="2da047bf84573702d7fcf75d26434534a8b078e5" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/platform/external/mmc-utils" path="external/mmc-utils" remote="rk" revision="d91ae2d617619c0e39c5c6d346b7e8d859f00f03" upstream="master"/>
-  <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="e392c7a3f9c0c24fa52939e50c25fbfc69cc7fa7" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="ea501bcd5924607654fe321e6d32e80688a4c125" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="3b23a7fe610385e9a3c5875a5d652f9c297360bf" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="488fabb12609288280c53e27320c1312811999df" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/platform/external/rp-pppoe" path="external/rp-pppoe" remote="rk" revision="ed8335dfa801d0a18287992c3f1a3cd22d8e7b8b" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="a7d3902bcc66daec34e94c52c96a0ed50cba5196" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/wpa_supplicant_8_esp" path="external/wpa_supplicant_8_esp" remote="rk" revision="c95c6aafc7b7197a3d9501b46a7503b62106de9a" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/wpa_supplicant_8_rtl" path="external/wpa_supplicant_8_rtl" remote="rk" revision="5ebb065b17914c0acd5b3f62aef98594eeaa1171" upstream="rk32/mid/5.1/develop"/>
   <project name="rk/platform/hardware/broadcom/nfc" path="hardware/broadcom/nfc" remote="rk" revision="4a689359b785aab67f5c198adb630d1eb3637d26" upstream="rk30/mid/4.4_r1.1/develop"/>
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5" upstream="rk30/mid/4.4_r1/develop"/>
-  <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="a05c0e988880bcb3e8e10e7fc058a8e4e3121902" upstream="rk30/box/4.4_r1/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="4afb551477a86a288341a847eee15241e584a17c" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="85333a58be0b7e1e98997cb41bfb81a173f8eb7a" upstream="rk32/mid/5.0/develop"/>
+  <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="a89228a9aed1b44cb442f0e0694bce8a34d933b0" upstream="rk30/box/4.4_r1/develop"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="7fed4e1f182ae36471cb21939932a7273889844f" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="1f106caacaf5f095714e7af062956645e2625c7c" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="feafc397cf04608048aacd328c5cdec64c9350f4" upstream="rkproduct"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="29beb2b328c65db8f28945bf5a8205ec8bfcf03a" upstream="rkproduct"/>
 </manifest>
