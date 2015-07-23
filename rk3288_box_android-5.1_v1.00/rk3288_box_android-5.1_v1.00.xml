@@ -477,7 +477,6 @@
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
-  <project name="rk/platform/external/ffmpeg" path="external/ffmpeg" remote="rk" revision="a2dab3870ff773cd1615979baa6a98062694757e" upstream="rk30/mid/4.2_r1/develop"/>
   <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="master"/>
   <project name="rk/platform/external/mac" path="external/mac" remote="rk" revision="2da047bf84573702d7fcf75d26434534a8b078e5" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/platform/external/mmc-utils" path="external/mmc-utils" remote="rk" revision="d91ae2d617619c0e39c5c6d346b7e8d859f00f03" upstream="master"/>
