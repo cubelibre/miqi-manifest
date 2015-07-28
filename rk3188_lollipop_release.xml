@@ -5,13 +5,6 @@
   
   <default remote="aosp" revision="refs/tags/android-5.1.0_r5" sync-j="4"/>
   
-  <project groups="device,flo" name="device/asus/deb" revision="488d284bb1dae8f68d69e6ea0f77482b147fc9fd" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,flo" name="device/asus/flo" revision="4526f47a64402a5273ff28b15e2042154affb2d7" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,flo" name="device/asus/flo-kernel" revision="eb86fded509632e717690e11fa72ef078c09eef9" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,fugu" name="device/asus/fugu" revision="f87d64db02ec406cc419750f4342da12ac8d205b" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,fugu" name="device/asus/fugu-kernel" revision="d7069f849a127161dc5f9e083d5be8356fe538d8" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,grouper" name="device/asus/grouper" revision="72c2817317e491dfaf6c53ca17584bc56a7520f4" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,grouper" name="device/asus/tilapia" revision="52e7e9f549f34a879bc371f8a0599d2ab30c45f8" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="device/common" remote="rk" revision="6e8a0147be721645905b23f610030496e31e3fed" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="2a96372d80c693fc28b29328b3e86b65cab9189b" upstream="refs/tags/android-5.1.0_r5"/>
@@ -495,10 +488,6 @@
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="8d1a361685c0014fdd2a9a47df7b603c4237b4a5" upstream="rk32/mid/5.1/develop"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="rk/device/rockchip/rk3036" path="device/rockchip/rk3036" remote="rk" revision="88f512f5142932377a64903be30f7307adce9938" upstream="rk30/box/4.4/develop"/>
-  <project name="rk/device/rockchip/rk312x" path="device/rockchip/rk312x" remote="rk" revision="704c564cc1badfb8e9e1e56942ecda00a24b7277" upstream="rk31/mid/5.0/develop"/>
-  <project name="rk/device/rockchip/rk3188" path="device/rockchip/rk3188" remote="rk" revision="cd326f350b1e55a23bb222beda641923bfba3fb3" upstream="rk30/mid/5.1/develop"/>
-  <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="fc31fc3382f8a1656359ac1645f665f5543bcf2d" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d56a9468f44ff2965b23222fb207c441dbe3a799" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3188.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
