@@ -21,17 +21,6 @@
   <project groups="pdk" name="device/generic/x86_64" revision="138339be1da9b0f34befe3751b0bae874d7253db" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="device" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,fugu" name="device/google/atv" revision="291a15e6a36eddd8bc4434cc8f4a8b21d7cd44f8" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,flounder" name="device/htc/flounder" revision="02931a8ebe84e4c81022dc43a4a3429e022f9b09" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,flounder" name="device/htc/flounder-kernel" revision="b53295352f5ba9dd29bcf1d0f54d1836abdeecd2" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,hammerhead" name="device/lge/hammerhead" revision="c2b32b7ea5076033d8329363810eb58c8f76956b" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,hammerhead" name="device/lge/hammerhead-kernel" revision="35941cddab4813e8b3c569b15631f4b805fc525f" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,mako" name="device/lge/mako" revision="c707b1d73e29aa8df2a6d2f666eca57e816b0f6e" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,mako" name="device/lge/mako-kernel" revision="8d682a622fc4c79bdd68eb187dc137641ecce1aa" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,shamu" name="device/moto/shamu" revision="83037382e9cc1b1f347435b91cb6278a4814deda" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,shamu" name="device/moto/shamu-kernel" revision="dbc55200cab46833164bcaa5535ceb0d4909e6c9" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/sample" revision="6a9816fafdb2b78bbb8a1f9f9509ead0a8fcd12c" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="device,manta" name="device/samsung/manta" revision="118a12180ce370c4c12bb6d438356c8eb9e4d045" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/art" path="art" remote="rk" revision="8443a2bdd17693ee6b05c80121069c039c1e91cc" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="cdf56a474b8abe4a9b8b1c25078d664df57116bd" upstream="rk32/mid/5.1/develop"/>
@@ -312,44 +301,10 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="0f6da1a299c8dd924d19714ee69d343915c32d2c" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/hardware/akm" path="hardware/akm" revision="068a97a299a8e0d837b8ac67635a96b59595c582" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="0507cf7a5e3c6ee4b21f9e40a070af1f25f36a5f" upstream="rk32/mid/5.1/develop"/>
-  <project groups="intel" name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media" revision="0ce92df294da2b05fd06c7da49ac5324e68c7a14" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/bootstub" path="hardware/intel/bootstub" revision="c5878e7f9aacb6bffa56f0574724206af7af4ca1" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix" revision="01c9654a678d6ff08a8cbf2565bef712b402a8af" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw" revision="8cb439a0dd0cf7c8d7b7fb8ebd617e7e2e7fc020" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva" revision="a0ffd00bb6cfcdc52bc259727a7de1ce41ffe261" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/libwsbm" path="hardware/intel/common/libwsbm" revision="995a232f386fd24eed9d2c222128339588b33207" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components" revision="2dc257bd12d2604f5bac67d039e2b7e53c255ac9" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils" revision="e5aad73d4992d6c8fbd9e9e3c9cc89abfc83b775" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" revision="c8580eefbc2dc1a563a3a327bba6b1e5cc9aca5c" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer" revision="4b323195b2569d47c820d034717c89c619cee64b" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/img/libdrm" path="hardware/intel/img/libdrm" revision="20e32a079154bb3a36ccb43a4dd8e25bd1ef01de" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers" revision="58ab4ceb5ea3d2733f108cacfcccb93e0c8d84da" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="intel" name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" revision="da9cacb46d93adf85f65d28172f8321a9c9d832f" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" revision="dda0105984d0d83ffbdc3644d7d4735a86b88867" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="4837d3167242003a0e0edc3f4c83be117b6d3426" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="7b383f76e1ff67cd6af2873501eb4de5b3d2f2da" upstream="rk32/mid/5.1/develop"/>
-  <project groups="nvidia_audio" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="tegra124" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124" revision="77d1e2a4bb07d97a7f140f0fa8ddb8b6d52327f6" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="68f5482b51dc991b6bc2e7c3f269a0d752c3f765" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="cbb846ad4aa7551e156d735b92b8ce1375cfe3f3" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="2d76a0a7551490e32f8cbb2f46515d01b3802a82" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="e8d59957d4935fb737ee3604d21b34fa3afb7e95" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="15fb17b05965c82d0a534cbff0c75d2ca6b66452" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_msm8960" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="c25a431842a26b5756b58a9d4a42c776e0457ba2" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_msm8x26" name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" revision="da35900a03bb133cde68eee89ee68a3c3b12f615" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_msm8x27" name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" revision="39122a9905ea437593ad4f5171683bcaafad156f" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_msm8x84" name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="b0ca7795fceafdc9de4b987644fde828bed32d36" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="ff9f4538c09399030fa73e3e65a167852cb91e8f" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="91840a20fc7e54c2aa2393b982a0abc85baa8299" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="rk" revision="485f2507d9e7fad8878a3b6c05e7645554439626" upstream="rk32/mid/5.1/develop"/>
-  <project groups="exynos5" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" revision="bd42692f6f55b3008bec86c23bbfcec5aecd6681" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="omap3" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="0546008a51b3a9e40d7ab5d2c6c0d6e064a345a2" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="omap4-aah" name="platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah" revision="ce711bd57caf8e9d06941d00cc75e216bb24fd9b" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="omap4" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="fe94a195639921ae99e5a286a735b2deb18b4a09" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/libcore" path="libcore" remote="rk" revision="c7f01c872ceefe85206a513dd95a6c653e75541c" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="a75fb2a636ceafac9ddfb580af614e5ef0edf977" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/ndk" path="ndk" revision="e4b362d6b023e419d595938154c6093d1c6f0d9b" upstream="refs/tags/android-5.1.0_r5"/>
