@@ -488,6 +488,7 @@
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="8d1a361685c0014fdd2a9a47df7b603c4237b4a5" upstream="rk32/mid/5.1/develop"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
+  <project name="rk/device/rockchip/rk3188" path="device/rockchip/rk3188" remote="rk" revision="cd326f350b1e55a23bb222beda641923bfba3fb3" upstream="rk30/mid/5.1/develop"/>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d56a9468f44ff2965b23222fb207c441dbe3a799" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3188.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
