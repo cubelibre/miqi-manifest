@@ -6,19 +6,6 @@
   <default remote="aosp" revision="refs/tags/android-5.1.0_r5" sync-j="4"/>
   
   <project groups="pdk-cw-fs" name="device/common" remote="rk" revision="6e8a0147be721645905b23f610030496e31e3fed" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk" name="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/armv7-a-neon" revision="2a96372d80c693fc28b29328b3e86b65cab9189b" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/goldfish" revision="dd14cf865c04bf9d15ca2c60409f1b131e9818f6" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mini-emulator-arm64" revision="743dd408af5c662761bafc05eacdb18ade88cf3a" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" revision="f3c04210ee525ecbd9c198364027edfe00c26f7f" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mini-emulator-mips" revision="3fdb24de40ca27da9a86f10f31314f2a13259db5" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86" revision="65d59e2be2cfd713513a05d80a0f75794ab60579" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86_64" revision="673aae8bd65d9708821c4062f6a0364a859e7ae4" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/mips" revision="7caf8d5796ec0f59b2e1be865b76c5a5ad5707e6" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="device/generic/qemu" revision="bd2543e810f3fa56e9dcfe301b893832534c85db" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/x86" revision="17657b831b0903f148a4392d88d83dde1dddab47" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="device/generic/x86_64" revision="138339be1da9b0f34befe3751b0bae874d7253db" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="device" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="refs/tags/android-5.1.0_r5"/>
