@@ -268,7 +268,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="8d977782c1cfe9d75cc9a464439c2ff1e27e1665" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="5988ea604d3b9611f2ffc0d922801bed5f959a66" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="d3bca73b83aef9e40d5af485df9da8ac2f58dc69" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="a30dfb3e9f8fb97d4bf6cfd1c1ff26082c2d552d" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="refs/tags/android-5.1.0_r5"/>
