@@ -472,7 +472,7 @@
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="2ffa99270270ea0fd7385ac675cc5212e7282f73" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="e3f6822b8e8a824ce1a349082c6b94cbefb2489a" upstream="stable-3.10-rk3288"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="a06dc63b04559c008a6983db20f1144b5f81dbf4" upstream="stable-3.10-rk3288"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
