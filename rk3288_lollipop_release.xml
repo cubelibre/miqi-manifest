@@ -352,7 +352,7 @@
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="9b682a183560b4b45e6297073c09fba5a5ee1ef1" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-5.1.0_r5"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="4a86e770e99a23626d03d30a8e4bf118e6663a5b" upstream="rk32/mid/5.1/develop"/>
+  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="8798dd12bb97fdf27e4309c910547c7412d010f4" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="536aa74ff3a77186bef29dc9333a34688fa59d13" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="8f86843a3773a9eb03b4d4beabd2ce3c654f4113" upstream="refs/tags/android-5.1.0_r5"/>
