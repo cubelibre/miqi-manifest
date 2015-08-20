@@ -278,7 +278,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="253320d25fccbb49621926d49dcf5ef64cf529c6" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="c7a7e058e83dde47089502933de4e7b65aa47734" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="aa8394eaaa44582bbee403ce75746dc3ac643fb0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="cdc5138b2b9db7bd03233b3fb491d43e83b6308a" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="763757d239cc3d72317a321344eb21874626280a" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="refs/tags/android-5.1.0_r5"/>
@@ -459,9 +459,9 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="cd0a71906c294219d21c2f37796fc2bf23d79402" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="d03b9fdc543720da223811ac51898e7bce07f9dd" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="bf97d9197f72e04c2add3490257ad2b747f93918" upstream="rk33/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/gps" path="hardware/rockchip/gps" remote="rk" revision="a2a4b19a1e2fd8a4735c6d7dd36dd30b1cc4e001" upstream="rk29/phone/4.0.1_r1/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="2ee04768a98b8c7e2918a19f532315a8803e2e42" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="187bb38113ae0ab6ff88ceffe1442eed2cfecf01" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d629d9af331c3de1f829d2f08f7ac9cc9c6599ac" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="a7c35370dc2236d4ccc4d028b7fe0d15fd3f0bd7" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="714d7e233d816d40a794deea37853ec3d6666a4a" upstream="rk32/mid/5.0/develop"/>
@@ -472,7 +472,7 @@
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="19ff3840e57295cc5f1aa56210ecb64571dbb6b1" upstream="stable-3.10-rk3368"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="5cb0ba0a1d86f736a0d4707138c345b2aaa94074" upstream="stable-3.10-rk3368"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
@@ -491,5 +491,5 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="3a49315b28d63e8d4209c7a3467a19c950f3c206" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="1f106caacaf5f095714e7af062956645e2625c7c" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="52d24b7e5f8c5315b9a950339c9d1edce82e957e" upstream="rkproduct"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="8a01f9de1060f35388bdb0213e1e63b415001287" upstream="rkproduct"/>
 </manifest>
