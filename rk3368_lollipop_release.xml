@@ -450,7 +450,7 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
  <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="88d6fd22e0b2f4e20889d2b9d9e289c6a3f393a6" upstream="rk3368"/>
- <project name="rk/RKTools" path="RKTools" remote="rk" revision="2ec47f7c6bb5ddaa86b477b9f5d15fc3a312b2c2" upstream="rk3368"/>
+ <project name="rk/RKTools" path="RKTools" remote="rk" revision="c8e81db713002a98760e164273c2cd9c470143ba" upstream="rk3368"/>
   <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="cc19f00508f56b1f8167b6d219750800f19cfdf2" upstream="rk3368/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3368-32.mk"/>
   </project>
