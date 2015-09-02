@@ -454,7 +454,7 @@
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="142bb4418bb4b43f79cb032dc68ee96f0cfba246" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="9ee303c6db010ca67d042db0b1cd55f6d81d0090" upstream="rk32/mid/5.0/develop">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="376cd3f9e71e741224064179d2d97c3cf5136535" upstream="rk32/mid/5.0/develop">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="build.sh" src="build.sh"/>

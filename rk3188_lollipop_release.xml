@@ -433,7 +433,7 @@
   <project name="rk/device/rockchip/rk3188" path="device/rockchip/rk3188" remote="rk" revision="cd326f350b1e55a23bb222beda641923bfba3fb3" upstream="rk30/mid/5.1/develop"/>
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="1138ab756e86bd95bd27b31caae6ad1f51902814" upstream="rk3188"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="7477605d15c5bbfd8dffb5de382acab594d33749" upstream="rk3188"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="d56a9468f44ff2965b23222fb207c441dbe3a799" upstream="rk32/mid/5.0/develop">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="376cd3f9e71e741224064179d2d97c3cf5136535" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3188.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
