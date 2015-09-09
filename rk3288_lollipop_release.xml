@@ -452,7 +452,7 @@
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="586d1912ca19277f1e346ff12c8295eb6490079b" upstream="rk3288"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="f7f8bd6cdb37a6c0cd6989cf1745e2ee734531fd" upstream="andriod5.0/rk3288"/>
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="46d27992eab8370b080aaf02eec36c3d563ae893" upstream="rk32/mid/5.0/develop"/>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="376cd3f9e71e741224064179d2d97c3cf5136535" upstream="rk32/mid/5.0/develop">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="8471eac206a12330975b55b2c1ebb3bb9928ef8e" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
