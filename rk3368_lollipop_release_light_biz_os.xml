@@ -488,7 +488,7 @@
   <project name="rk/platform/hardware/broadcom/nfc" path="hardware/broadcom/nfc" remote="rk" revision="4a689359b785aab67f5c198adb630d1eb3637d26" upstream="rk30/mid/4.4_r1.1/develop"/>
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="b2a8213e68b3eb8e90f75075b8542e5800b4e663" upstream="rk30/box/4.4_r1/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="a171c57a4c7348427f46d5c7498b99eba5d1f788" upstream="rk32/mid/5.0/develop_light_biz"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="e86777924a620610ca8f0910feb5e14b5f80201a" upstream="rk32/mid/5.0/develop_light_biz"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="1f106caacaf5f095714e7af062956645e2625c7c" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/u-boot" path="u-boot" remote="rk" revision="47bd779be4586797e6f103b4ae80ebedde538405" upstream="rkproduct"/>
