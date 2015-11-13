@@ -469,10 +469,11 @@
   <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="2ea6b6962abe5b037491a496fceb809caceb038b" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/hardware/rk29/libmemtrack" path="hardware/rockchip/libmemtrack" remote="rk" revision="b73740e34bba0b5011cf29f6c4c5b0607b9b2bb1" upstream="rk32/mid/4.4_r1/develop"/>
   <project name="rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="rk" revision="1f4e9839bc3ce866bbb01a90fa1c14c0ec90ba11" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="5883b7812a9e54fd90768074fb3c00020db2bac3" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="4735bba9d90c0a3b8f5d6ac8b35974a909cc3347" upstream="stable-3.10-rk3368"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="a331ad1168863a0affd34c6680eae00414073d7e" upstream="stable-3.10-rk3368"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
