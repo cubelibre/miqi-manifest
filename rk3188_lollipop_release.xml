@@ -441,9 +441,7 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="cd0a71906c294219d21c2f37796fc2bf23d79402" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="484effeefae644e4f9a505ffe06e7573301304e8" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/gps" path="hardware/rockchip/gps" remote="rk" revision="a2a4b19a1e2fd8a4735c6d7dd36dd30b1cc4e001" upstream="rk29/phone/4.0.1_r1/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="f329d2bf377ed1947d33a59f5c96378678a245c4" upstream="phone/5.0/hwc_new_policy"/>
   <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk29/mid/4.0.1_r1/develop"/>
-  <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="ab1e6c046fad90cf899e38add7110d13af80007d" upstream="rk30/gpu/4.4_r1/develop"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="714d7e233d816d40a794deea37853ec3d6666a4a" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/hardware/rk29/libkeymaster" path="hardware/rockchip/libkeymaster" remote="rk" revision="bd4d805b2428aa971c81a3b11429b183cc313b52" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="rk" revision="2ea6b6962abe5b037491a496fceb809caceb038b" upstream="rk29/mid/4.0.1_r1/develop"/>
