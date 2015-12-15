@@ -32,7 +32,7 @@
   <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="cdf56a474b8abe4a9b8b1c25078d664df57116bd" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="47e386c85827a1cacbf03a6dcde223f5528ad220" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="3f981c272cffabfbeefe29fe291c84a0beced674" upstream="rk3288_5.1">
+  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="aababcb1e9e6f7616ce0628c6944892a754ab3fc" upstream="rk32/mid/5.1/develop">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts" remote="rk" revision="1ae3d53894da5996aae5647418669e9c9d193e28" upstream="rk32/mid/5.1/develop"/>
