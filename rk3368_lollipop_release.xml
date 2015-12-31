@@ -278,7 +278,7 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="253320d25fccbb49621926d49dcf5ef64cf529c6" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="c7a7e058e83dde47089502933de4e7b65aa47734" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="aa8394eaaa44582bbee403ce75746dc3ac643fb0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="cdc5138b2b9db7bd03233b3fb491d43e83b6308a" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="1f78ebb2a911065973bd1cb2f0f184d69167bc66" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="5c102db5a1a16a2adcc7728693a6e65a981f91ae" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="192d793d2586b620027edd5b45ff4c72a86cc7be" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" upstream="refs/tags/android-5.1.0_r5"/>
