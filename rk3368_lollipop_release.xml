@@ -269,7 +269,7 @@
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="69474a4db2868aaa1d9dc04b71bf64f17b97bd4e" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="2db63d4ba15581340e3b4baba7cdf25989285e96" upstream="rk32/mid/5.1/develop"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="1da4bcb4474203b06f0af587ee229c80fff68630" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794" upstream="refs/tags/android-5.1.0_r5"/>
@@ -451,7 +451,7 @@
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
  <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="791066bdfb2099f2cb26ca3ed30af3e4b56f35e7" upstream="rk3368"/>
  <project name="rk/RKTools" path="RKTools" remote="rk" revision="c8e81db713002a98760e164273c2cd9c470143ba" upstream="rk3368"/>
-  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="c3aac72077b02ef3a3ae350154fe4b6c62357d01" upstream="rk3368/mid/5.0/develop">
+  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="cc19f00508f56b1f8167b6d219750800f19cfdf2" upstream="rk3368/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3368-32.mk"/>
   </project>
   <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="b011181444dba4229b298e1eb5e7076c1ddbaab0" upstream="rk33/mid/5.0/develop">
@@ -489,7 +489,7 @@
   <project name="rk/platform/hardware/broadcom/nfc" path="hardware/broadcom/nfc" remote="rk" revision="4a689359b785aab67f5c198adb630d1eb3637d26" upstream="rk30/mid/4.4_r1.1/develop"/>
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="6d661dfaade8312ab9b3f58e0eb3267490132412" upstream="rk30/box/4.4_r1/develop"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="62b0c13554483e7b51a9969546f065f95bc95f5a" upstream="rk32/mid/5.0/develop"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="e16e6f26614a11965f9e13d39aa51f878593f0c3" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="1f106caacaf5f095714e7af062956645e2625c7c" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="rk/u-boot" path="u-boot" remote="rk" revision="2146061df0dc0ce080022b0b28c94d97361b998a" upstream="rkproduct"/>
