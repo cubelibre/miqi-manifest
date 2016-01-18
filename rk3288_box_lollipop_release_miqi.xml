@@ -456,7 +456,7 @@
   <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="f971396394024b0b3c485dfd655b652b3aae3b13" upstream="rk32/mid/5.0/develop">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
-  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="0d80ef44d5e0c04a413ce226dbd728940bd5e0ad" upstream="master">
+  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="3c00f5cd959c25af41562122a00f68f1144c04f3" upstream="master">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="build.sh" src="build.sh"/>
@@ -475,7 +475,7 @@
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="2e71b8b684c571a4028498437eed37150a7de573" upstream="stable-3.10-rk3288-fused"/>
+  <project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="624370b677e5b66aaa0c99b786322e7f83a4e75b" upstream="stable-3.10-rk3288-fused"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="44c8f1c4ecce88f7d887747dbf10002afe1ccd40" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
@@ -495,5 +495,5 @@
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="9358abdabb1c58e1cf12a725a81e85dc03db84c8" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
-  <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="f4e6e5efcb566ba0c781d8349ca48e452e0114f2" upstream="master"/>
+  <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="45ba7574cec5055660a5649a5ac88996c3aecd8d" upstream="master"/>
 </manifest>
