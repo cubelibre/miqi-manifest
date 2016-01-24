@@ -456,7 +456,7 @@
   <project name="mq002/rk-device-rockchip-rk3288" path="device/rockchip/rk3288" remote="miqi" revision="6d297237ea901b4ca3f50b5f393c1a15275aff6b" upstream="master">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
-  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="0e67bc67ee99f8797edb6c75be93444e18c07094" upstream="master">
+  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="df40a422e446cb44431912ae9578e29a95372160" upstream="master">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="build.sh" src="build.sh"/>
