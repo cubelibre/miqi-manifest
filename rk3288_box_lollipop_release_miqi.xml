@@ -453,7 +453,7 @@
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="dbd3b100f86cb7e513cc8e6f6f30641e39cb48ba" upstream="rk3288"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="d492aa8f2015e585c433a7c377a578445990c614" upstream="rk3288_box"/>
-  <project name="rk/device/rockchip/rk3288" path="device/rockchip/rk3288" remote="rk" revision="f971396394024b0b3c485dfd655b652b3aae3b13" upstream="rk32/mid/5.0/develop">
+  <project name="mq002/rk-device-rockchip-rk3288" path="device/rockchip/rk3288" remote="miqi" revision="6d297237ea901b4ca3f50b5f393c1a15275aff6b" upstream="master">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
   <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="0e67bc67ee99f8797edb6c75be93444e18c07094" upstream="master">
