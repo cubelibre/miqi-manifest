@@ -499,8 +499,11 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="45ba7574cec5055660a5649a5ac88996c3aecd8d" upstream="master"/>
- <project name="mq002/miqi-pack" path="MQPack" remote="miqi" revision="33eaf64a5c8ab0eff70b6df7130879a0da8ee9f1" upstream="leo">
-    <copyfile dest="mkupdate.sh" src="mkupdate.sh" />
-    <copyfile dest="mkMiQiImage.sh" src="mkMiQiImage.sh" />
+  <project name="mq002/miqi-pack" path="MQPack" remote="miqi" revision="77c96776bd07844eb5dd72fd4de412a58756d6b1" upstream="leo">
+      <copyfile dest="pack.sh" src="imgTools/pack.sh" />
+      <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
+      <copyfile dest="rebuildBoot.sh" src="imgTools/rebuildBoot.sh" />
+      <copyfile dest="rebuildRecovery.sh" src="imgTools/rebuildRecovery.sh" />
+      <copyfile dest="rebuildSystem.sh" src="imgTools/rebuildSystem.sh" />
   </project>
 </manifest>
