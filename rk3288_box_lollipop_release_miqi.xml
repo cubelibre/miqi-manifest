@@ -500,11 +500,8 @@
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="45ba7574cec5055660a5649a5ac88996c3aecd8d" upstream="master"/>
   <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="282c6ffeab0a60c9576e916987c5fe680d13c69d" upstream="master">
-	  <!-- 打包成一体固件 -->
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
-	  <!-- 解包一体固件 -->
-      <copyfile dest="pack.sh" src="imgTools/unpack.sh" />
-	  <!-- 更新分区固件 -->
+      <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
       <copyfile dest="rebuildBoot.sh" src="imgTools/rebuildBoot.sh" />
       <copyfile dest="rebuildRecovery.sh" src="imgTools/rebuildRecovery.sh" />
