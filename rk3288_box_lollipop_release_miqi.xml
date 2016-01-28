@@ -310,7 +310,8 @@
   <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="0507cf7a5e3c6ee4b21f9e40a070af1f25f36a5f" upstream="rk32/mid/5.1/develop"/>
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" revision="dda0105984d0d83ffbdc3644d7d4735a86b88867" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="4837d3167242003a0e0edc3f4c83be117b6d3426" upstream="rk32/mid/5.1/develop"/>
-  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="7b383f76e1ff67cd6af2873501eb4de5b3d2f2da" upstream="rk32/mid/5.1/develop"/>
+  <!--<project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="rk" revision="7b383f76e1ff67cd6af2873501eb4de5b3d2f2da" upstream="rk32/mid/5.1/develop"/>-->
+  <project name="mq002/rk-platform-libhardware_legacy" path="hardware/libhardware_legacy" remote="miqi" revision="45a4034bbd7dfb412a5838938add3db3ea7dce19" upstream="master"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="rk" revision="485f2507d9e7fad8878a3b6c05e7645554439626" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/libcore" path="libcore" remote="rk" revision="c7f01c872ceefe85206a513dd95a6c653e75541c" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="a75fb2a636ceafac9ddfb580af614e5ef0edf977" upstream="refs/tags/android-5.1.0_r5"/>
@@ -475,7 +476,8 @@
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd" upstream="rk30/mid/4.4.1_r1/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081" upstream="rk30/mid/4.1.1_r1/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
-  <project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="624370b677e5b66aaa0c99b786322e7f83a4e75b" upstream="stable-3.10-rk3288-fused"/>
+  <!--<project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="624370b677e5b66aaa0c99b786322e7f83a4e75b" upstream="stable-3.10-rk3288-fused"/>-->
+  <project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="025dcd837eef593bf0052e327459624895a4e0a8" upstream="wip/android"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="44c8f1c4ecce88f7d887747dbf10002afe1ccd40" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
