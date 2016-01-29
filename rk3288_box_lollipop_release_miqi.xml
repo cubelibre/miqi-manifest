@@ -32,7 +32,7 @@
   <project groups="pdk" name="platform/art" path="art" remote="rk" revision="8aada757910ff828256ae60dce4600c7a897d94c" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="cdf56a474b8abe4a9b8b1c25078d664df57116bd" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="mq002/platform-bootable-recovery" path="bootable/recovery" remote="miqi" revision="07634d9bc4971927baa690d4fd38a67b13c3737d" upstream="android-5.1"/>
+  <project groups="pdk" name="mq002/platform-bootable-recovery" path="bootable/recovery" remote="miqi" revision="5d0e3db978c35d354c088ccb2fab539b37c1de22" upstream="android-5.1"/>
   <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="e4f60e72a0e7864e3f40851539e74acedfef7acd" upstream="rk3288_5.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -495,11 +495,11 @@
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="21f95c87d8fffefbbff08585a9a559a32d660742" upstream="rk30/box/4.4_r1/develop"/>
   <!--<project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="9358abdabb1c58e1cf12a725a81e85dc03db84c8" upstream="rk32/mid/5.0/develop"/>-->
-  <project name="mq002/rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" remote="miqi" revision="4b47d703dbd1f4ba5d98815f7ea6778449c3a67b" upstream="master"/>
+  <project name="mq002/rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" remote="miqi" revision="3037eca7120a67f0f5d4fd97a9eda3070cea5523" upstream="master"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="45ba7574cec5055660a5649a5ac88996c3aecd8d" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="282c6ffeab0a60c9576e916987c5fe680d13c69d" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="cf2e762987abf66ae76042bdd1cf333df43c66a8" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
