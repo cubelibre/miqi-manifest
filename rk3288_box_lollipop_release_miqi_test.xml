@@ -442,7 +442,8 @@
   <project groups="pdk,tradefed" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="933020abbd02ddea9d701b6f79f392092b5ba3bf" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="5b2be74a88e09e758cb86d18deae9cd29006009a" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" revision="7859e2e738542baf96c15e6c8b50bbdb410131b0" upstream="refs/tags/android-5.1.0_r5"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="fb7950c1a484d60dc95c5733ceffce7a057bc78c" upstream="rk32/mid/5.1/develop"/>
+  <!--<project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="fb7950c1a484d60dc95c5733ceffce7a057bc78c" upstream="rk32/mid/5.1/develop"/>-->
+  <project groups="pdk" name="mq002/platform-system-core" path="system/core" remote="miqi" revision="361ca4ce7b9a088e2474fa061e848249b8e436c5" upstream="android-5.1"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="8e9fa76016a34ec53b83157032e38fad06af1135" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="224da076426f2ab3124f1bd2f6171f43a09876bc" upstream="refs/tags/android-5.1.0_r5"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="2d6976f08018613a6206ba74da3142ca4b85bd2d" upstream="refs/tags/android-5.1.0_r5"/>
