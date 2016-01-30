@@ -478,7 +478,7 @@
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2" upstream="rk32/mid/4.4_r1/develop"/>
   <!--<project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="624370b677e5b66aaa0c99b786322e7f83a4e75b" upstream="stable-3.10-rk3288-fused"/>-->
   <project name="mq002/miqi-kernel" path="kernel" remote="miqi" revision="025dcd837eef593bf0052e327459624895a4e0a8" upstream="wip/android"/>
-  <project name="mq002/miqi-linux-kernel" path="linux-kernel" remote="miqi" revision="1702ea1f9c067563d2be8c4519ab5d607d06d2d8" upstream="linux-stable"/>
+  <project name="mq002/miqi-kernel" path="linux-kernel" remote="miqi" revision="1702ea1f9c067563d2be8c4519ab5d607d06d2d8" upstream="linux-stable"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="44c8f1c4ecce88f7d887747dbf10002afe1ccd40" upstream="rk32/mid/5.1/develop"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664" upstream="rk30/mid/4.4_r1/develop"/>
