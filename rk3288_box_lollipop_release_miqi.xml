@@ -497,7 +497,7 @@
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5" upstream="rk30/mid/4.4_r1/develop"/>
   <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="21f95c87d8fffefbbff08585a9a559a32d660742" upstream="rk30/box/4.4_r1/develop"/>
   <!--<project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="9358abdabb1c58e1cf12a725a81e85dc03db84c8" upstream="rk32/mid/5.0/develop"/>-->
-  <project name="mq002/rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" remote="miqi" revision="e544b6f22a5375bf731ae1f959c0b8f60c8713d7" upstream="master"/>
+  <project name="mq002/rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" remote="miqi" revision="b68d7e16aca8b86e9900a3b43eab5d337856f18a" upstream="master"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
