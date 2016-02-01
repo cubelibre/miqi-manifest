@@ -354,7 +354,7 @@
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="rk" revision="78ca0db658fe6253d506916e36319e620476f809" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="mq002/platform-packages-apps-Settings" path="packages/apps/Settings" remote="miqi" revision="6dd6e74869cac753884ccb61cdc75ea1a66bb664" upstream="android-5.1"/>
-  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="236435159061c52af53ce768669297a273d75019" upstream="master"/>
+  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="6fffa023e2d53ec13f0cb5314707b7e68073b39b" upstream="master"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="7d15b0d932dd18a4c80e368ac08ac1d7f35e39c9" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-5.1.0_r5"/>
