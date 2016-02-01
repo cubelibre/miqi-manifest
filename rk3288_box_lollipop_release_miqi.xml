@@ -354,7 +354,7 @@
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="rk" revision="78ca0db658fe6253d506916e36319e620476f809" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="mq002/platform-packages-apps-Settings" path="packages/apps/Settings" remote="miqi" revision="6dd6e74869cac753884ccb61cdc75ea1a66bb664" upstream="android-5.1"/>
-  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="a58a63f9e7cef59f4f7643fc97806eed43878018" upstream="master"/>
+  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="7af3a112feed56eafe6b0d91426b0020b62491d0" upstream="master"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="7d15b0d932dd18a4c80e368ac08ac1d7f35e39c9" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-5.1.0_r5"/>
@@ -502,10 +502,11 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="f66c9c036fef990d0da777a30cc813d0e2090ac9" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="e7a6d2dc3161a2a3eae301a0e5c14d0fe4b96400" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
+      <copyfile dest="mkLinuxBoot.sh" src="imgTools/mkLinuxBoot.sh" />
       <copyfile dest="rebuildBoot.sh" src="imgTools/rebuildBoot.sh" />
       <copyfile dest="rebuildRecovery.sh" src="imgTools/rebuildRecovery.sh" />
       <copyfile dest="rebuildSystem.sh" src="imgTools/rebuildSystem.sh" />
