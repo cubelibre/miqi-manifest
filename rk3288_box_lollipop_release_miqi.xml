@@ -354,7 +354,7 @@
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="rk" revision="78ca0db658fe6253d506916e36319e620476f809" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="mq002/platform-packages-apps-Settings" path="packages/apps/Settings" remote="miqi" revision="6dd6e74869cac753884ccb61cdc75ea1a66bb664" upstream="android-5.1"/>
-  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="6fffa023e2d53ec13f0cb5314707b7e68073b39b" upstream="master"/>
+  <project name="mq002/platform-packages-apps-QuickBoot" path="packages/apps/QuickBoot" remote="miqi" revision="a58a63f9e7cef59f4f7643fc97806eed43878018" upstream="master"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="7d15b0d932dd18a4c80e368ac08ac1d7f35e39c9" upstream="rk32/mid/5.1/develop"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-5.1.0_r5"/>
@@ -456,7 +456,7 @@
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56" upstream="refs/tags/android-5.1.0_r5"/>
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="dbd3b100f86cb7e513cc8e6f6f30641e39cb48ba" upstream="rk3288"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="d492aa8f2015e585c433a7c377a578445990c614" upstream="rk3288_box"/>
-  <project name="mq002/rk-device-rockchip-rk3288" path="device/rockchip/rk3288" remote="miqi" revision="6d297237ea901b4ca3f50b5f393c1a15275aff6b" upstream="master">
+  <project name="mq002/rk-device-rockchip-rk3288" path="device/rockchip/rk3288" remote="miqi" revision="af050cc6732106bf8596481651a5095142cc39c0" upstream="master">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
   <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="df40a422e446cb44431912ae9578e29a95372160" upstream="master">
@@ -502,7 +502,7 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="36b5daa5e9ae9cfdb58549c751fed7ae56509e71" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="94d4a5122491aa30efef883c1ac17ca725f9086a" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
