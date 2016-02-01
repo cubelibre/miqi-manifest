@@ -459,7 +459,7 @@
   <project name="mq002/rk-device-rockchip-rk3288" path="device/rockchip/rk3288" remote="miqi" revision="af050cc6732106bf8596481651a5095142cc39c0" upstream="master">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288-box.mk"/>
   </project>
-  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="df40a422e446cb44431912ae9578e29a95372160" upstream="master">
+  <project name="mq002/miqi-device-common" path="device/rockchip/common" remote="miqi" revision="128e8355c702b2e2c813bf57a98046252efdba11" upstream="master">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="build.sh" src="build.sh"/>
@@ -502,7 +502,7 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="cc809fe9232595336910fc784627d3c63a266a47" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="b40d29c81d03e37e1260818ba3805b31880db30c" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
