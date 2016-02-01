@@ -502,7 +502,7 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="94d4a5122491aa30efef883c1ac17ca725f9086a" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="f66c9c036fef990d0da777a30cc813d0e2090ac9" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
@@ -511,6 +511,7 @@
       <copyfile dest="rebuildSystem.sh" src="imgTools/rebuildSystem.sh" />
       <copyfile dest="rebuildKernel.sh" src="imgTools/rebuildKernel.sh" />
       <copyfile dest="rebuildUBoot.sh" src="imgTools/rebuildUBoot.sh" />
+      <copyfile dest="rebuildAll.sh" src="imgTools/rebuildAll.sh" />
   </project>
   <project name="mq002/miqi-initrd" path="miqi-initrd" remote="miqi" revision="7eb15eca9bc8116d7690652ab57c6851ee28de0a" upstream="master"/>
   <project name="mq002/rockchip-mkbootimg" path="rockchip-mkbootimg" remote="miqi" revision="2348690523faee6ce3cea9eb9ff47e8b8d5e1df6" upstream="master"/>
