@@ -502,7 +502,7 @@
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="a7d2843ac7c79f8ea1c8140da69ca90b7c643e54" upstream="rk32/mid/5.0/develop"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk29/mid/4.0.1_r1/develop"/>
   <project name="mq002/miqi-uboot" path="u-boot" remote="miqi" revision="a7e14738847adf35dadc6e36d778d2ca8137fcd6" upstream="master"/>
-  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="e7a6d2dc3161a2a3eae301a0e5c14d0fe4b96400" upstream="master">
+  <project name="mq002/miqi-pack" path="miqi-pack" remote="miqi" revision="c774cfb7bff63640f75d5992fb8790e752887e89" upstream="master">
       <copyfile dest="pack.sh" src="imgTools/pack.sh" />
       <copyfile dest="unpack.sh" src="imgTools/unpack.sh" />
       <copyfile dest="mkMiQiImage.sh" src="imgTools/mkMiQiImage.sh" />
